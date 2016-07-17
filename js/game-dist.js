@@ -306,6 +306,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 	}
 
 	function startGame() {
+		document.getElementById("puntaje").value = 0;
 		snake = null;
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 		snake = new Snake();
